@@ -133,20 +133,32 @@
                             var randomPizza = list[Math.floor((Math.random()*list.length))];
                             pizza_alea.innerText = randomPizza;
                                 }
-                    
-                    
-
-
                  </script>
 
-                <div class="menu__container bd-grid" class = "center">
-                    <div class="menu__content" class = "center">
+                
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
                         <img src="assets/img/plate1.png" alt="" class="menu__img">
-                        <h3 id = "pizza_alea" class="menu__name">Pizza aléatoire</h3>
+                        <h3 class="menu__name">Nos Pizzas</h3>
+                        <a href="#0" onclick="location.href = 'menu.html';" class="button">Menu</a>
+                    </div>
+                
+                
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Nos boissons et desserts</h3>
+                        <a href="#0" onclick="location.href = 'menu.html';" class="button">Desserts</a>
+                    </div>
+                
+               
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 id = "pizza_alea" class="menu__name">Indécis? Laissez-vous guider....</h3>
                         <a href="#0" onclick="get_random_pizza(pizzalist)" class="button">La Roulette à Pizza</a>
                     </div>
+                
                 </div>
-                <button onclick="location.href = 'menu.html';" id="myButton" class="float-left submit-button" >Home</button>
+                <!-- <button onclick="location.href = 'menu.html';" id="myButton" class="float-left submit-button" >Home</button> -->
             </section>
 
 
